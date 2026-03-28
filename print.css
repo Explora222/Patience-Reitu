@@ -1,0 +1,44 @@
+/* Print Styles */
+@media print {
+    .navbar,
+    .scroll-indicator,
+    .floating-whatsapp,
+    .scroll-to-top,
+    .map-container,
+    footer .designer-credit {
+        display: none !important;
+    }
+    
+    body {
+        font-size: 12pt;
+        line-height: 1.5;
+        color: #000;
+        background: #fff;
+    }
+    
+    .hero {
+        height: auto;
+        padding: 2rem 0;
+    }
+    
+    .hero-title {
+        font-size: 24pt;
+        color: #000;
+    }
+    
+    .section-padding {
+        padding: 2rem 0;
+    }
+    
+    a {
+        color: #000;
+        text-decoration: underline;
+    }
+    
+    .service-card,
+    .contact-wrapper {
+        box-shadow: none;
+        border: 1px solid #ddd;
+        page-break-inside: avoid;
+    }
+}
